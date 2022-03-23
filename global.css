@@ -1,0 +1,12 @@
+*{margin:0;padding:0;border:none}
+.page-view-width-limiter{max-width:1400px; width: 1400px; display:flex;justify-content:center;align-items:center}
+.custom-class{display:none}
+h3{font-size:calc(.6rem + .6vw)}
+p{font-size:calc(.5rem + .6vw)}
+
+@media(max-width:780px){
+
+    .page-view-width-limiter{
+        width: 100%;
+    }
+}
